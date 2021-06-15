@@ -13,16 +13,19 @@
     display: table;
     clear: both;
 }
+body{
+    font-family: 'Luckiest Guy', cursive;
+}
 
 /* fine caratteristiche globali */
 /* TESTA e paragrafi semplici */
 
 .paragrafo1{
-    background-color: cornflowerblue;
-    margin: 10px auto;
+    
+    margin: 20px auto;
 }
 footer{
-    background-color: saddlebrown;
+    text-align: center;
     margin: 10px auto;
 }
 /* fine testa ecc */
@@ -32,17 +35,19 @@ footer{
     width: 20%;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: slategray;
+    
     float: left;
 }
 .centro{
     width: calc((100% / 5) * 3 - 10px);
     margin: 5px;
-    background-color: slategray;
+    
     float: left;
 }
 .box1{
-    background-color: tomato;
+    width: 100%;
+    
+    color: gray;
 }
 /* fine 3 colonne */
 .nomarginesotto{
@@ -68,12 +73,14 @@ header img{
     position: relative;
     width: 100%;
     height: 400px;
+    border-radius: 5px;
 }
 #banner img{
     
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 15px;
 
 }
 #testo-pubblicita{
@@ -87,5 +94,28 @@ header img{
     position: absolute;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.323);
+    border-radius: 15px;
 }
 /* fine bannerone */
+/* 3 colonne */
+.lati img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.centro img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.scatola{
+    position: relative;
+}
+/* colori */
+h4{
+    color: gray;
+}
+h2{
+    color: black;
+}
+/* fine colori */
