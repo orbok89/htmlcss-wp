@@ -16,9 +16,7 @@
 
 /* fine caratteristiche globali */
 /* TESTA e paragrafi semplici */
-header{
-    background-color: lightskyblue;
-}
+
 .paragrafo1{
     background-color: cornflowerblue;
     margin: 10px auto;
@@ -50,3 +48,18 @@ footer{
 .nomarginesotto{
     margin-bottom: 0;
 }
+/* logo e menù di navigazione */
+header img{
+    width: 20%;
+    height: 20%;
+    border-right: 1px solid gray;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.elementi{
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+/* fine logo e menù */
