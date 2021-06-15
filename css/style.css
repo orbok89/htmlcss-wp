@@ -1,0 +1,52 @@
+/* caratteristiche globali */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.contenitore{
+    width: 80%;
+    margin: 10px auto;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* fine caratteristiche globali */
+/* TESTA e paragrafi semplici */
+header{
+    background-color: lightskyblue;
+}
+.paragrafo1{
+    background-color: cornflowerblue;
+    margin: 10px auto;
+}
+footer{
+    background-color: saddlebrown;
+    margin: 10px auto;
+}
+/* fine testa ecc */
+/* tre colonne */
+
+.lati{
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: slategray;
+    float: left;
+}
+.centro{
+    width: calc((100% / 5) * 3 - 10px);
+    margin: 5px;
+    background-color: slategray;
+    float: left;
+}
+.box1{
+    background-color: tomato;
+}
+/* fine 3 colonne */
+.nomarginesotto{
+    margin-bottom: 0;
+}
